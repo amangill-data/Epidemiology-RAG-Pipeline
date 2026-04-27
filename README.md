@@ -9,8 +9,8 @@ fast, cited answers from peer-reviewed literature without manual research.
 
 **Team Members:**
 - Aman Gill
-- Michael Litterio
 - Emma Henchey
+- Michael Litterio
 - Naaman Ondego
 
 ---
