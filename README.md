@@ -32,7 +32,7 @@ The pipeline runs in two phases:
 **Phase 1 — Data Ingestion & Indexing**
 - 100 epidemiology PDFs stored in Google Cloud Storage (GCS)
 - Documents loaded and split into overlapping chunks via LangChain
-- Chunks embedded using Google's `text-embedding-005` model
+- Chunks embedded using Google's text embedding 005 model
 - Embeddings stored in a ChromaDB vector store for local similarity search
 
 **Phase 2 — Q&A Inference**
@@ -50,7 +50,7 @@ The pipeline runs in two phases:
 | Cloud Storage | Google Cloud Storage (GCS) |
 | Document Loading | LangChain + PyPDF |
 | Text Splitting | LangChain RecursiveCharacterTextSplitter |
-| Embeddings | Vertex AI `text-embedding-005` |
+| Embeddings | Vertex AI text embedding 005 |
 | Vector Store | ChromaDB (local) |
 | LLM | Gemini 2.5 Pro via Vertex AI |
 | Orchestration | LangChain |
