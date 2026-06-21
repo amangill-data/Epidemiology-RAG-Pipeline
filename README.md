@@ -1,5 +1,7 @@
 # Epidemiology-RAG-Pipeline
 
+Please see above, in addition to the python notebook: **qapipeline_architectural_diagram**. a high level diagram, and 
+
 A Retrieval-Augmented Generation (RAG) system built to query a library of 100
 epidemiology research papers using natural language. Designed for a State &
 Local Government Public Health Consulting Firm use case, where analysts need
