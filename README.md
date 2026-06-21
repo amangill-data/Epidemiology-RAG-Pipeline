@@ -7,7 +7,7 @@ epidemiology research papers using natural language. Designed for a State &
 Local Government Public Health Consulting Firm use case, where analysts need
 fast, cited answers from peer-reviewed literature without manual research.
 
-## Group Project — ADTA/DAST 5770 | Spring 2026 | Group 6
+## Group Project - University of North Texas - ADTA/DAST 5770 | Spring 2026 
 
 **Team Members:**
 - Aman Gill
@@ -31,13 +31,13 @@ Gemini 2.5 Pro
 
 The pipeline runs in two phases:
 
-**Phase 1 — Data Ingestion & Indexing**
+**Phase 1 | Data Ingestion & Indexing**
 - 100 epidemiology PDFs stored in Google Cloud Storage (GCS)
 - Documents loaded and split into overlapping chunks via LangChain
 - Chunks embedded using Google's text embedding 005 model
 - Embeddings stored in a ChromaDB vector store for local similarity search
 
-**Phase 2 — Q&A Inference**
+**Phase 2 | Q&A Inference**
 - User submits a natural language query
 - Query is embedded and matched against stored document vectors
 - Top relevant chunks retrieved and passed as context to Gemini 2.5 Pro
@@ -45,7 +45,7 @@ The pipeline runs in two phases:
 
 ---
 
-## Tech Stack
+## Technical Stack
 
 | Layer | Tool |
 |---|---|
